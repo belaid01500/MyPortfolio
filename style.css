@@ -106,12 +106,7 @@ ul {
 }
 
 /** Header **/
-header {
-  position: sticky;
-  top: 0;
-  background-color: #202227ad;
-  z-index: 2;
-}
+
 nav a:hover {
   border-bottom: 2px solid var(--Secondary-2);
 }
@@ -337,6 +332,8 @@ nav a:hover {
   header {
     width: 100%;
     flex-wrap: nowrap;
+    z-index: 2;
+    background-color: none;
   }
   .overlay {
     position: fixed;
