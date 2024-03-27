@@ -109,7 +109,7 @@ ul {
 header {
   position: sticky;
   top: 0;
-  background: rgba(0, 0, 0, 0.261);
+  background-color: #202227ad;
   z-index: 2;
 }
 nav a:hover {
@@ -200,12 +200,12 @@ nav a:hover {
     transform: scale(0.6);
   }
   25% {
-    top: 95%;
+    top: 25%;
     left: 45%;
   }
   50% {
     top: 25%;
-    left: 95%;
+    left: 80%;
     transform: scale(2);
   }
   75% {
@@ -252,7 +252,7 @@ nav a:hover {
   }
   25% {
     top: 15%;
-    left: 98%;
+    left: 80%;
     transform: scale(2);
   }
   50% {
