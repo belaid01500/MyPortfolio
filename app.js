@@ -32,6 +32,7 @@ function closeMenuBurger() {
 
 new Typewriter("h1", {
   deleteSpeed: 40,
+  loop: true,
 })
   .changeDelay(40)
   .typeString("<span> BELAID GHERBI <br></span> ")
