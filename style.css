@@ -1,0 +1,578 @@
+@import url(https://db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=Cera+CY+Bold);
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Primary-1);
+}
+
+:root {
+  --Primary-1: #202227;
+  --Secondary-2: #ddddde;
+  --third-3: #2e2c32;
+}
+
+/** FlexBox **/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.gap-30 {
+  gap: 30px;
+}
+
+/** Général **/
+.w1200 {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.w100 {
+  width: 100%;
+}
+.w50 {
+  width: 50%;
+}
+.w20 {
+  width: 20%;
+}
+.paddings {
+  padding: 1% 5%;
+}
+.margin-top {
+  margin-top: 20vh;
+}
+.margin-bottom {
+  margin-bottom: 40px;
+}
+.margin-left {
+  margin-left: 20px;
+}
+.text-center {
+  text-align: center;
+}
+h1 span {
+  font-family: "Cera CY Bold";
+  font-size: 5rem;
+  color: var(--Secondary-2);
+}
+h2 {
+  font-family: "Cera CY Bold";
+  font-size: 3rem;
+  color: var(--Secondary-2);
+}
+h3 {
+  font-family: "Cera CY Bold";
+  color: var(--Secondary-2);
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: var(--Secondary-2);
+  font-weight: 400;
+}
+span {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "Cera CY Bold";
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--Secondary-2);
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style: none;
+}
+
+/** Header **/
+header {
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.261);
+  z-index: 2;
+}
+nav a:hover {
+  border-bottom: 2px solid var(--Secondary-2);
+}
+.link-sociaux {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.link-sociaux a {
+  font-size: 1.7rem;
+}
+
+.menu-burger {
+  display: none;
+}
+.close-burger {
+  display: none;
+}
+.close-burger i {
+  color: var(--Primary-1);
+  font-size: 2rem;
+}
+.menu-burger i {
+  color: var(--Primary-1);
+  font-size: 2rem;
+}
+
+/** Hero **/
+.hero {
+  height: 60vh;
+  position: relative;
+  left: 20vw;
+}
+.hero a {
+  border: 2px solid var(--Secondary-2);
+  padding: 12px 32px;
+  transition: all 0.9s;
+}
+
+.hero a:hover {
+  background-color: var(--Secondary-2);
+  color: var(--Primary-1);
+  transform: scale(1);
+}
+
+/** Cercle Animation **/
+
+.circle1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: var(--Secondary-2);
+  border-radius: 50%;
+  filter: blur(64px);
+  animation: circle1 30s linear infinite;
+}
+.circle2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: var(--Secondary-2);
+  border-radius: 50%;
+  filter: blur(64px);
+  animation: circle2 30s linear infinite;
+}
+.circle3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: var(--Secondary-2);
+  border-radius: 50%;
+  filter: blur(64px);
+  animation: circle3 30s linear infinite;
+}
+
+@keyframes circle1 {
+  0% {
+    top: 0;
+    left: 0;
+    transform: scale(0.6);
+  }
+  25% {
+    top: 95%;
+    left: 45%;
+  }
+  50% {
+    top: 25%;
+    left: 95%;
+    transform: scale(2);
+  }
+  75% {
+    top: 21%;
+    left: 35%;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes circle2 {
+  0% {
+    top: 50%;
+    left: 25%;
+    transform: scale(1);
+  }
+  25% {
+    top: 0;
+    left: 75%;
+  }
+  50% {
+    top: 80%;
+    left: 5%;
+  }
+  75% {
+    top: 54%;
+    left: 50%;
+    transform: scale(1);
+  }
+  100% {
+    top: 20%;
+    left: 25%;
+    transform: scale(2);
+  }
+}
+
+@keyframes circle3 {
+  0% {
+    top: 64%;
+    left: 28%;
+  }
+  25% {
+    top: 15%;
+    left: 98%;
+    transform: scale(2);
+  }
+  50% {
+    top: 50%;
+    left: 0%;
+  }
+  75% {
+    top: 12%;
+    left: 0;
+    transform: scale(1);
+  }
+  100% {
+    top: 64%;
+    left: 28%;
+  }
+}
+
+/** A propos **/
+
+.a-propos {
+  background-color: var(--third-3);
+  padding: 2% 0;
+  height: 100vh;
+}
+.img-logo {
+  width: 10%;
+}
+.img-logo img {
+  width: 100%;
+  height: auto;
+}
+.card-apropos {
+  background-color: var(--Primary-1);
+  color: var(--Secondary-2);
+  width: fit-content;
+  padding: 2% 6%;
+  border-radius: 15px;
+}
+.card-apropos p {
+  margin-bottom: 20px;
+}
+
+/** Mes Projets **/
+
+.project {
+  height: 100vh;
+  padding: 2% 0;
+  background-color: var(--Primary-1);
+}
+.card-ruche {
+  width: 250px;
+}
+.card-ruche img {
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.card-ruche {
+  scale: 1;
+  transition: scale 0.4s ease-in-out;
+}
+.card-ruche:hover {
+  scale: 1.1;
+}
+
+/** Footer Contact **/
+
+.contact {
+  height: 100vh;
+  background-color: var(--third-3);
+}
+.resaux a {
+  font-size: 1.7rem;
+}
+.card-footer {
+  background-color: red;
+}
+
+/** Media query smartphone **/
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(87, 85, 85, 0.6);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 10000;
+  }
+  .header-nav {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--Primary-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.3s transform ease-in-out;
+    display: none;
+  }
+  .header-nav.open {
+    transform: initial;
+    display: flex;
+  }
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-nav a {
+    color: var(--Secondary-2);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .menu-burger {
+    display: block;
+  }
+  .menu-burger i {
+    color: var(--Secondary-2);
+  }
+  .close-burger {
+    display: block;
+    cursor: pointer;
+  }
+  .close-burger i {
+    color: var(--Secondary-2);
+    position: absolute;
+    top: 26px;
+    right: 26px;
+  }
+  .hero {
+    width: 100%;
+    padding: 0 10%;
+    height: max-content;
+    position: static;
+  }
+  h1 span {
+    font-size: 3rem;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3 {
+    display: none;
+  }
+  .link-sociaux {
+    display: none;
+  }
+  .a-propos {
+    width: 100%;
+    padding: 10% 20px;
+    height: auto;
+    justify-content: center;
+  }
+  .card-apropos {
+    width: 100%;
+  }
+
+  .project {
+    padding: 10% 20px;
+    width: 100%;
+    flex-direction: initial;
+    height: max-content;
+  }
+
+  .card-ruche {
+    width: 100%;
+    display: block;
+  }
+  .card-ruche img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  .row {
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+  }
+}
+
+/** media query tablette **/
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(87, 85, 85, 0.6);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 10000;
+  }
+  .header-nav {
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: var(--Primary-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.3s transform ease-in-out;
+    display: none;
+  }
+  .header-nav.open {
+    transform: initial;
+    display: flex;
+  }
+  .header-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-nav a {
+    color: var(--Secondary-2);
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .menu-burger {
+    display: block;
+  }
+  .menu-burger i {
+    color: var(--Secondary-2);
+  }
+  .close-burger {
+    display: block;
+    cursor: pointer;
+  }
+  .close-burger i {
+    color: var(--Secondary-2);
+    position: absolute;
+    top: 26px;
+    right: 26px;
+  }
+  .link-sociaux {
+    display: none;
+  }
+  .scroll {
+    display: none;
+  }
+  .circle1,
+  .circle2,
+  .circle3 {
+    display: none;
+  }
+  .hero {
+    width: 100%;
+    padding: 0 10%;
+    position: static;
+  }
+  h1 span {
+    font-size: 3.5rem;
+  }
+  .a-propos {
+    width: 100%;
+    padding: 0 10%;
+  }
+  .project {
+    width: 100%;
+    height: max-content;
+    padding: 10% 22px;
+  }
+  .row {
+    width: 100%;
+  }
+  .card-ruche {
+    width: 100%;
+  }
+  .card-ruche img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+/** media query Ordi portable et resolution grand ecran **/
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+  body {
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+    padding: 0 10%;
+    position: static;
+  }
+  .circle1,
+  .circle2,
+  .circle3 {
+    display: none;
+  }
+  .a-propos {
+    padding: 0 10%;
+  }
+  .project {
+    padding: 0 10%;
+  }
+  .row {
+    width: 100%;
+  }
+}
