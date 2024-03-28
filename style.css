@@ -109,8 +109,8 @@ ul {
 header {
   position: sticky;
   top: 0;
-  box-shadow: 0 3px 15px rgba(173, 172, 172, 0.5);
-  background: var(--Primary-1);
+  box-shadow: 0 3px 15px rgba(127, 126, 126, 0.5);
+  background-color: var(--Primary-1);
 }
 nav a:hover {
   border-bottom: 2px solid var(--Secondary-2);
@@ -337,7 +337,6 @@ nav a:hover {
     width: 100%;
     flex-wrap: nowrap;
     z-index: 2;
-    background-color: none;
   }
   .overlay {
     position: fixed;
@@ -350,7 +349,6 @@ nav a:hover {
   }
   .overlay.open {
     display: block;
-    z-index: 10000;
   }
   .header-nav {
     position: fixed;
@@ -465,7 +463,6 @@ nav a:hover {
   }
   .overlay.open {
     display: block;
-    z-index: 10000;
   }
   .header-nav {
     position: fixed;
