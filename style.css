@@ -106,7 +106,12 @@ ul {
 }
 
 /** Header **/
-
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 0 3px 15px rgba(173, 172, 172, 0.5);
+  background: var(--Primary-1);
+}
 nav a:hover {
   border-bottom: 2px solid var(--Secondary-2);
 }
@@ -307,7 +312,6 @@ nav a:hover {
 }
 
 .card-ruche {
-  scale: 1;
   transition: scale 0.4s ease-in-out;
 }
 .card-ruche:hover {
