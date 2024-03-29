@@ -632,49 +632,4 @@ nav a:hover {
   .a-propos {
     padding: 0 10%;
   }
-  .project {
-    width: 50%;
-    padding: 15% 0;
-  }
-  .card-project2 img {
-    width: 100%;
-    height: auto;
-  }
-  .card-project img {
-    width: 100%;
-    height: auto;
-  }
-  .card-project {
-    padding: 0 20px;
-  }
-  .card-project2 {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    padding: 0 20px;
-  }
-  .card-project p {
-    font-size: 2rem;
-  }
-  .card-project a {
-    font-size: 1.6rem;
-    width: 250px;
-  }
-  .card-project2 a {
-    font-size: 1.6rem;
-    width: 250px;
-  }
-  .card-project h3 {
-    font-size: 3rem;
-  }
-  .card-project2 p {
-    font-size: 2rem;
-  }
-  .card-project2 h3 {
-    font-size: 3rem;
-  }
-
-  .card-des {
-    width: 100%;
-    padding: 20px 0;
-  }
 }
