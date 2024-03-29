@@ -111,6 +111,7 @@ header {
   top: 0;
   box-shadow: 0 3px 15px rgba(127, 126, 126, 0.5);
   background-color: var(--Primary-1);
+  z-index: 2;
 }
 nav a:hover {
   border-bottom: 2px solid var(--Secondary-2);
