@@ -148,7 +148,7 @@ nav a:hover {
 .hero a {
   border: 2px solid var(--Secondary-2);
   padding: 12px 32px;
-  transition: all 0.9s;
+  transition: all 0.9s ease-in-out;
 }
 
 .hero a:hover {
@@ -298,26 +298,58 @@ nav a:hover {
 /** Mes Projets **/
 
 .project {
-  height: 100vh;
-  padding: 2% 0;
-  background-color: var(--Primary-1);
+  height: max-content;
+  padding: 10% 0;
 }
-.card-ruche {
-  width: 250px;
+.card-project {
+  margin-bottom: 40px;
 }
-.card-ruche img {
-  width: 250px;
-  height: 150px;
-  border-radius: 20px;
+.card-project2 {
+  margin-bottom: 40px;
 }
-
-.card-ruche {
-  transition: scale 0.4s ease-in-out;
+.card-project2 img {
+  width: 500px;
+  height: 300px;
 }
-.card-ruche:hover {
-  scale: 1.1;
+.card-project img {
+  width: 500px;
+  height: 300px;
 }
-
+.card-des {
+  width: 50%;
+}
+.card-project2 a {
+  padding: 12px 32px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  border: 2px solid var(--Secondary-2);
+  transition: all 0.9s ease-in-out;
+}
+.card-project2 a:hover {
+  background-color: var(--Secondary-2);
+  color: var(--Primary-1);
+  transform: scale(1);
+}
+.card-project a {
+  padding: 12px 32px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  border: 2px solid var(--Secondary-2);
+  transition: all 0.9s ease-in-out;
+}
+.card-project a:hover {
+  background-color: var(--Secondary-2);
+  color: var(--Primary-1);
+  transform: scale(1);
+}
+.copyrigth {
+  background-color: var(--Secondary-2);
+  color: var(--Primary-1);
+  width: fit-content;
+  padding: 5px 10px;
+}
 /** Footer Contact **/
 
 .contact {
@@ -421,24 +453,28 @@ nav a:hover {
   .card-apropos {
     width: 100%;
   }
-
   .project {
-    padding: 10% 20px;
     width: 100%;
-    flex-direction: initial;
-    height: max-content;
+    padding: 10% 0;
+  }
+  .card-project2 img {
+    width: 100%;
+    height: auto;
+  }
+  .card-project img {
+    width: 100%;
+    height: auto;
+  }
+  .card-project {
+    padding: 0 20px;
+  }
+  .card-project2 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 0 20px;
   }
 
-  .card-ruche {
-    width: 100%;
-    display: block;
-  }
-  .card-ruche img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
-  .row {
+  .card-des {
     width: 100%;
   }
   .contact {
@@ -533,19 +569,48 @@ nav a:hover {
   }
   .project {
     width: 100%;
-    height: max-content;
-    padding: 10% 22px;
+    padding: 15% 0;
   }
-  .row {
-    width: 100%;
-  }
-  .card-ruche {
-    width: 100%;
-  }
-  .card-ruche img {
+  .card-project2 img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+  }
+  .card-project img {
+    width: 100%;
+    height: auto;
+  }
+  .card-project {
+    padding: 0 20px;
+  }
+  .card-project2 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  .card-project p {
+    font-size: 2rem;
+  }
+  .card-project a {
+    font-size: 1.6rem;
+    width: 250px;
+  }
+  .card-project2 a {
+    font-size: 1.6rem;
+    width: 250px;
+  }
+  .card-project h3 {
+    font-size: 3rem;
+  }
+  .card-project2 p {
+    font-size: 2rem;
+  }
+  .card-project2 h3 {
+    font-size: 3rem;
+  }
+
+  .card-des {
+    width: 100%;
+    padding: 20px 0;
   }
 }
 
@@ -568,9 +633,48 @@ nav a:hover {
     padding: 0 10%;
   }
   .project {
-    padding: 0 10%;
+    width: 50%;
+    padding: 15% 0;
   }
-  .row {
+  .card-project2 img {
     width: 100%;
+    height: auto;
+  }
+  .card-project img {
+    width: 100%;
+    height: auto;
+  }
+  .card-project {
+    padding: 0 20px;
+  }
+  .card-project2 {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  .card-project p {
+    font-size: 2rem;
+  }
+  .card-project a {
+    font-size: 1.6rem;
+    width: 250px;
+  }
+  .card-project2 a {
+    font-size: 1.6rem;
+    width: 250px;
+  }
+  .card-project h3 {
+    font-size: 3rem;
+  }
+  .card-project2 p {
+    font-size: 2rem;
+  }
+  .card-project2 h3 {
+    font-size: 3rem;
+  }
+
+  .card-des {
+    width: 100%;
+    padding: 20px 0;
   }
 }
