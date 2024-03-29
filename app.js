@@ -49,3 +49,9 @@ new Typewriter("h1", {
   .pauseFor(1000)
   .deleteChars(12)
   .start();
+
+AOS.init({
+  duration: 700,
+  delay: 0,
+  easing: "ease",
+});

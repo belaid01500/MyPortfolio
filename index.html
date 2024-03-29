@@ -11,6 +11,7 @@
       src="https://kit.fontawesome.com/c8bcc72f6d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" href="./style.css" />
     <title>Portfolio Belaid Gherbi</title>
   </head>
@@ -18,8 +19,8 @@
     <!-- Header -->
     <div class="overlay"></div>
     <header class="flex justify-between align-center paddings">
-      <div>
-        <a href="#" id="accueil"
+      <div id="accueil">
+        <a href="#"
           ><p><span>B-G</span></p></a
         >
         <a href="#"
@@ -161,8 +162,12 @@
         <div class="container w100">
           <!-- Card La Ruche -->
           <div class="card-project flex align-center justify-between">
-            <img src="./images/La-ruche.png" alt="photo du site La Ruche" />
-            <div class="card-des flex flex-column gap-30">
+            <img
+              src="./images/La-ruche.png"
+              alt="photo du site La Ruche"
+              data-aos="fade-right"
+            />
+            <div class="card-des flex flex-column gap-30" data-aos="fade-left">
               <h3>La Ruche</h3>
               <p>
                 Le site La Ruche c'est un site vitrine qui parle des bienfaits
@@ -180,7 +185,7 @@
           </div>
           <!-- Card Escape Game -->
           <div class="card-project2 flex align-center justify-between">
-            <div class="card-des flex flex-column gap-30">
+            <div class="card-des flex flex-column gap-30" data-aos="fade-right">
               <h3>Escape Game</h3>
               <p>
                 Escape Game est un site ou on peut reservez n'importe quel
@@ -196,12 +201,17 @@
             <img
               src="./images/escape-game.png"
               alt="photo du site Escape Game"
+              data-aos="fade-left"
             />
           </div>
           <!-- Card Interno -->
           <div class="card-project flex align-center justify-between">
-            <img src="./images/Interno.png" alt="photo du site Interno" />
-            <div class="card-des flex flex-column gap-30">
+            <img
+              src="./images/Interno.png"
+              alt="photo du site Interno"
+              data-aos="fade-right"
+            />
+            <div class="card-des flex flex-column gap-30" data-aos="fade-left">
               <h3>Interno</h3>
               <p>
                 Interno est un site de meuble design pour votre interieur et
@@ -217,7 +227,7 @@
           </div>
           <!-- Card Hôtel 4 Éléments -->
           <div class="card-project2 flex align-center justify-between">
-            <div class="card-des flex flex-column gap-30">
+            <div class="card-des flex flex-column gap-30" data-aos="fade-right">
               <h3>Hôtel 4 Éléments</h3>
               <p>
                 L'Hôtel 4 Éléments est un site de réservation d'hôtel atypique
@@ -233,12 +243,17 @@
             <img
               src="./images/Hotel-4-Élements.png"
               alt="photo de l'hôtel 4 éléments"
+              data-aos="fade-left"
             />
           </div>
           <!-- Card MNTP -->
           <div class="card-project flex align-center justify-between">
-            <img src="./images/mntp.png" alt="photo du site MNTP" />
-            <div class="card-des flex flex-column gap-30">
+            <img
+              src="./images/mntp.png"
+              alt="photo du site MNTP"
+              data-aos="fade-right"
+            />
+            <div class="card-des flex flex-column gap-30" data-aos="fade-left">
               <h3>MNTP</h3>
               <p>
                 MNTP est un site pour les amoureux de la montagne qui souhaites
@@ -255,7 +270,7 @@
           </div>
           <!-- Card M'S Sportswear -->
           <div class="card-project2 flex align-center justify-between">
-            <div class="card-des flex flex-column gap-30">
+            <div class="card-des flex flex-column gap-30" data-aos="fade-right">
               <h3>M'S Sportswear</h3>
               <p>Site de vêtements, chaussures et accessoires de sport.</p>
               <p>
@@ -268,12 +283,17 @@
             <img
               src="./images/M'S Sportswear.png"
               alt="photo du site M'S Sportswear"
+              data-aos="fade-left"
             />
           </div>
           <!-- Card Site Absurde -->
           <div class="card-project flex align-center justify-between">
-            <img src="./images/Site-absurde.png" alt="photo du site absurde" />
-            <div class="card-des flex flex-column gap-30">
+            <img
+              src="./images/Site-absurde.png"
+              alt="photo du site absurde"
+              data-aos="fade-right"
+            />
+            <div class="card-des flex flex-column gap-30" data-aos="fade-left">
               <h3>Inutilisphère.com</h3>
               <p>
                 Site qui resense tout les sites absurdes et farfelus qui existe.
@@ -329,6 +349,7 @@
       </div>
     </footer>
 
+    <script src="./node_modules/aos/dist/aos.js"></script>
     <script src="./node_modules/typewriter-effect/dist/core.js"></script>
     <script src="./app.js"></script>
   </body>
