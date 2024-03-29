@@ -277,6 +277,9 @@ nav a:hover {
   padding: 2% 0;
   height: 100vh;
 }
+.a-propos h2 {
+  font-size: 4rem;
+}
 .img-logo {
   width: 10%;
 }
@@ -303,7 +306,9 @@ nav a:hover {
 }
 .project h2 {
   margin-bottom: 90px;
+  font-size: 4rem;
 }
+
 .card-project {
   margin-bottom: 15%;
 }
@@ -320,6 +325,9 @@ nav a:hover {
 }
 .card-des {
   width: 50%;
+}
+.card-des h3 {
+  font-size: 3rem;
 }
 .card-project2 a {
   padding: 12px 32px;
@@ -358,6 +366,9 @@ nav a:hover {
 .contact {
   height: 100vh;
   background-color: var(--third-3);
+}
+.contact h2 {
+  font-size: 4rem;
 }
 .resaux a {
   font-size: 1.7rem;
