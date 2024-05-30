@@ -48,6 +48,9 @@ new Typewriter("h1", {
   .typeString('<span style="color: #f7ba40"> JavaScript !</span>')
   .pauseFor(1000)
   .deleteChars(12)
+  .typeString('<span style="color: #7a86b8"> Php !</span>')
+  .pauseFor(1000)
+  .deleteChars(3)
   .start();
 
 AOS.init({
