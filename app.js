@@ -37,7 +37,7 @@ new Typewriter("h1", {
   .changeDelay(40)
   .typeString("<span> BELAID GHERBI <br></span> ")
   .pauseFor(300)
-  .typeString("<span> Developpeur Full Stack</span>")
+  .typeString("<span> Développeur Full Stack</span>")
   .pause(1000)
   .typeString('<span style="color: #ec5e5f"> HTML !</span>')
   .pauseFor(1000)
