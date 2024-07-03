@@ -1,4 +1,4 @@
-@import url(https://db.onlinewebfonts.com/c/6a28a1fb5b77054a12626d0c23c92aa2?family=Cera+CY+Bold);
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
@@ -69,17 +69,17 @@ body {
   text-align: center;
 }
 h1 span {
-  font-family: "Cera CY Bold";
+  font-family: "Inconsolata", monospace;
   font-size: 5rem;
   color: var(--Secondary-2);
 }
 h2 {
-  font-family: "Cera CY Bold";
+  font-family: "Inconsolata", monospace;
   font-size: 3rem;
   color: var(--Secondary-2);
 }
 h3 {
-  font-family: "Cera CY Bold";
+  font-family: "Inconsolata", monospace;
   color: var(--Secondary-2);
   font-size: 1.8rem;
 }
@@ -93,7 +93,7 @@ p {
 span {
   font-size: 2rem;
   font-weight: 700;
-  font-family: "Cera CY Bold";
+  font-family: "Inconsolata", monospace;
 }
 a {
   text-decoration: none;
