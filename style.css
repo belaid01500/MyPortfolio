@@ -363,7 +363,9 @@ nav a:hover {
   padding: 5px 10px;
 }
 /** Footer Contact **/
-
+address a {
+  font-size: 1.7rem;
+}
 .contact {
   height: 100vh;
   background-color: var(--third-3);
@@ -376,6 +378,9 @@ nav a:hover {
 }
 .card-footer {
   background-color: red;
+}
+.resau p {
+  font-size: 1.7rem;
 }
 
 /** Media query smartphone **/
