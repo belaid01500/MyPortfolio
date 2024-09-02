@@ -166,7 +166,7 @@ nav a:hover {
   left: 0;
   width: 200px;
   height: 200px;
-  background-color: var(--Secondary-2);
+  background-color: #55b3b4;
   border-radius: 50%;
   filter: blur(64px);
   animation: circle1 30s linear infinite;
@@ -177,7 +177,7 @@ nav a:hover {
   left: 0;
   width: 200px;
   height: 200px;
-  background-color: var(--Secondary-2);
+  background-color: #eb5e5f;
   border-radius: 50%;
   filter: blur(64px);
   animation: circle2 30s linear infinite;
@@ -188,7 +188,7 @@ nav a:hover {
   left: 0;
   width: 200px;
   height: 200px;
-  background-color: var(--Secondary-2);
+  background-color: #f7ba40;
   border-radius: 50%;
   filter: blur(64px);
   animation: circle3 30s linear infinite;
