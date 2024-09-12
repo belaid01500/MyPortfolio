@@ -1,5 +1,3 @@
-import AOS from "aos";
-
 let menuNav = document.querySelector(".header-nav");
 menuNav.addEventListener("click", () => {
   afficheMenuBurger();
