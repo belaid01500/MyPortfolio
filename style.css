@@ -578,11 +578,11 @@ address a {
   .scroll {
     display: none;
   }
-  .circle1,
+  /*.circle1,
   .circle2,
   .circle3 {
     display: none;
-  }
+  }*/
   .hero {
     width: 100%;
     padding: 0 10%;
@@ -654,11 +654,11 @@ address a {
     padding: 0 10%;
     position: static;
   }
-  .circle1,
+  /*.circle1,
   .circle2,
   .circle3 {
     display: none;
-  }
+  }*/
   .a-propos {
     padding: 0 10%;
   }
